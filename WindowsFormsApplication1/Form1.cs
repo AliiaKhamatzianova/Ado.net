@@ -16,5 +16,22 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, EventArgs e)
+        {
+            lblHello.Text = "Привет, Мир";
+        }
+
+        private void таблицаToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form2  df= new Form2();
+            df.ShowDialog();
+        }
+
+        private void присоединенныйВариантToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 bf = new Form3();
+            bf.ShowDialog();
+        }
     }
 }
